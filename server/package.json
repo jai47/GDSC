@@ -1,0 +1,19 @@
+{
+  "name": "gdsc",
+  "version": "1.0.0",
+  "description": "official site for gdsc@echelon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jai47/GDSC.git"
+  },
+  "author": "GDSC Web Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jai47/GDSC/issues"
+  },
+  "homepage": "https://github.com/jai47/GDSC#readme"
+}
