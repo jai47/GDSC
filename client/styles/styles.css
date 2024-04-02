@@ -80,7 +80,7 @@ a:hover{
 }
 footer{
     position: fixed;
-    bottom: 0px;
+    bottom: 50px;
     width: 100%;    
     background-color: #f8f8f8;  
 }
