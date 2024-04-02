@@ -78,4 +78,9 @@ a:hover{
 .target_area h1{
     color: #4285F4
 }
-
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;    
+    background-color: #f8f8f8;  
+}
