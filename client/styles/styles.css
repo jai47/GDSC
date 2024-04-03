@@ -78,9 +78,59 @@ a:hover{
 .target_area h1{
     color: #4285F4
 }
+.mainbody{
+    margin-top:30px ;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 10px;
+    z-index: 2;
+}
+.mainlockup{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    z-index: 2;
+}
+
+#front{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    transition: 2s;
+    width: 30%;
+    height: 100px;
+    box-sizing: border-box;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+
+}
+.buttonjoin{
+    padding: 1px 10px;
+    font-size: 1px;
+    --hover-color: #39bda7;
+    cursor: pointer;
+    margin:1px 0px;
+    background-color: #4285F4;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    transition: background-color 0.3s, color 0.3s;
+    z-index: 1;
+    
+
+
+}
 footer{
     position: fixed;
-    bottom: 50px;
+    bottom: 10px;
     width: 100%;    
     background-color: #f8f8f8;  
 }
