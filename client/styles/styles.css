@@ -69,7 +69,12 @@ h3 {
   padding: 50px 0;
   background-image: url(gdsc1.jpg);
   background-size: contain;
-  
+
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0px;
+  }
   
  
 }
@@ -86,7 +91,6 @@ h3 {
 .mainlockup {
   text-align: center;
 
-  
 }
 
 
@@ -122,7 +126,13 @@ h3 {
     justify-content: center;
     font-size: xx-large;
     width: 100%;
-    
+  h3 {
+    margin: 0px;
+  }
+  .nav1{
+    display: inline;
+    justify-content: right;
+    align-items: center;
   }
 }
 @keyframes load {
@@ -437,11 +447,14 @@ h3 {
   @media (max-width: 430px){
     footer{
       display: flex;
+  @media  only screen and (max-width: 767px) {
+    .info {
       flex-direction: column;
       justify-content: center;
       width:510px;
       
     }
+    
   }
   .footerdiv{
      max-width: 1400px;
@@ -453,4 +466,20 @@ h3 {
       text-decoration: none;
       gap: 10px;
   }
-  
+    .about,
+    .inforight {
+      flex-basis: 100%;
+    }
+    .container{
+    width: 100%;
+    
+    }
+    .nav1{
+      display: inline;
+      justify-content: space-between;
+      align-items: center;
+    }
+   
+  }
+
+
